@@ -18,12 +18,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "src/"
   },
   "include": [
     "src"
   ],
-  "extends": "@strangelovelabs/style-guide/tsconfig.json",
+  "extends": "@strangelovelabs/style-guide",
   "references": [
     {
       "path": "./tsconfig.node.json"
