@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "turbo run build --filter=component-kit",
     "component-kit": "pnpm --dir packages/component-kit"
   },
   "devDependencies": {
