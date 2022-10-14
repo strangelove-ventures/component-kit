@@ -6,7 +6,8 @@
   ],
   "scripts": {
     "build": "turbo run build --filter=component-kit",
-    "component-kit": "pnpm --dir packages/component-kit"
+    "component-kit": "pnpm --dir packages/component-kit",
+    "next-example": "pnpm --dir apps/next-example"
   },
   "devDependencies": {
     "turbo": "^1.5.6"
