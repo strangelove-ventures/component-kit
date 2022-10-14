@@ -1,0 +1,13 @@
+{
+  "name": "@strangelovelabs/component-kit",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "component-kit": "pnpm --dir packages/component-kit"
+  },
+  "devDependencies": {
+    "turbo": "^1.5.6"
+  }
+}
