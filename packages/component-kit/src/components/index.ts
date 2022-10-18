@@ -1,1 +1,1 @@
-export const beep = {};
+export const components = {};
