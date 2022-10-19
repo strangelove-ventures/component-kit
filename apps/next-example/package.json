@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gen:chakra-theme-typings": "chakra-cli tokens ../../packages/component-kit/src/theme/index.ts",
+    "postinstall": "pnpm gen:chakra-theme-typings"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.3.5",
@@ -19,6 +21,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@chakra-ui/cli": "^2.1.8",
+    "@chakra-ui/styled-system": "^2.3.4",
     "@strangelovelabs/style-guide": "^0.0.3",
     "@types/node": "18.11.0",
     "@types/react": "^18.0.17",
