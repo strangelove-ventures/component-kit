@@ -4,7 +4,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <Container as="main" maxW="container.lg">
-      <Heading color="ghostGreen">This is a test app to showcase our component kit</Heading>
+      <Heading color="primary.200">This is a test app to showcase our component kit</Heading>
     </Container>
   );
 };
