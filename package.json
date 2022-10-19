@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build --filter=@strangelovelabs/component-kit",
+    "build": "turbo run build",
     "dev": "turbo run dev --filter=next-example",
     "component-kit": "pnpm --dir packages/component-kit",
     "next-example": "pnpm --dir apps/next-example"
