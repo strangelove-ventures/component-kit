@@ -1,11 +1,12 @@
 {
-  "name": "@strangelovelabs/component-kit",
+  "name": "component-kit",
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build --filter=component-kit",
+    "build": "turbo run build --filter=@strangelovelabs/component-kit",
+    "dev": "turbo run dev --filter=next-example",
     "component-kit": "pnpm --dir packages/component-kit",
     "next-example": "pnpm --dir apps/next-example"
   },

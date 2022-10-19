@@ -1,8 +1,10 @@
 {
-  "name": "component-kit",
+  "name": "@strangelovelabs/component-kit",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "main": "./dist/component-kit.umd.js",
+  "module": "./dist/component-kit.es.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -14,9 +16,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "@chakra-ui/react": "^2.3.5",
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
     "@strangelovelabs/style-guide": "^0.0.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",

@@ -1,2 +1,2 @@
-export { components } from "./components";
-export { theme } from "./theme";
+export { default as components } from "./components";
+export { default as theme } from "./theme";
