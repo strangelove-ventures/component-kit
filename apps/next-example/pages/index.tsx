@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <VStack align="stretch">
           <Heading>Colors</Heading>
           <VStack align="inherit" spacing={10}>
-            {Object.entries(theme.colors as ChakraColors).map(([color, values], i) => {
+            {Object.entries(theme.colors as ChakraColors).map(([color, values]) => {
               const isSingleColor: boolean = typeof values !== "object";
               return isSingleColor ? (
                 <VStack key={uuid()} align="inherit" spacing={4}>
