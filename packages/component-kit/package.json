@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
+    "@chakra-ui/theme-tools": "^2.0.12",
     "@strangelovelabs/style-guide": "^0.0.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
@@ -32,6 +33,9 @@
     "@chakra-ui/react": "^2.3.5",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@fontsource/dm-sans": "^4.5.9",
+    "@fontsource/ibm-plex-mono": "^4.5.12",
+    "@fontsource/recursive": "^4.5.11",
     "framer-motion": "^7.5.3"
   },
   "prettier": "@strangelovelabs/style-guide/prettier"
