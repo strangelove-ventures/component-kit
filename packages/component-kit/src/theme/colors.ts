@@ -29,10 +29,10 @@ export const colors: Colors = {
     200: "#6c6c6c",
     300: "#404040",
     400: "#323232",
-    500: "#242424",
-    600: "#1c1c1c",
-    700: "#252725", // background gray
-    800: "#191919", // space black
+    500: "#252725", // background gray
+    600: "#191919", // space black
+    700: "#121212",
+    800: "#0d0d0d",
     900: "#0a0a0a",
   },
   red: {
