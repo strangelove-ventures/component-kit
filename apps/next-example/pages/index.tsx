@@ -6,6 +6,7 @@ type ChakraColors = Record<string, Record<string | number, string | { key: strin
 
 const Home: NextPage = () => {
   const theme = useTheme();
+  const colors = Object.entries<ChakraColors>(theme.colors);
 
   return (
     <Container as="main" maxW="container.md" py={10}>
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
         <VStack align="stretch">
           <Heading>Colors</Heading>
           <VStack align="inherit" spacing={10}>
-            {Object.entries(theme.colors as ChakraColors).map(([color, values]) => {
+            {colors.map(([color, values]) => {
               const isSingleColor: boolean = typeof values !== "object";
               return isSingleColor ? (
                 <VStack key={uuid()} align="inherit" spacing={4}>
