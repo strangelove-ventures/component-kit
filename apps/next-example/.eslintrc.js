@@ -13,6 +13,14 @@ const eslintConfig = {
     project: getTsconfigPath(),
   },
   root: true,
+  overrides: [
+    {
+      files: ["**/*.[jt]s?(x)"],
+      rules: {
+        "import/prefer-default-export": "off",
+      },
+    },
+  ],
 };
 
 module.exports = eslintConfig;
