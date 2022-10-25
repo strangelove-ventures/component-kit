@@ -11,6 +11,7 @@
     "next-example": "pnpm --dir apps/next-example"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.25.0",
     "turbo": "^1.5.6"
   }
 }
