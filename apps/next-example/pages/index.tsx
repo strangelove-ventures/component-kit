@@ -1,5 +1,6 @@
-import { Box, Container, Grid, Heading, HStack, Text, useTheme, VStack } from "@chakra-ui/react";
+import { Box, Container, Grid, Heading, Text, useTheme, VStack } from "@chakra-ui/react";
 import type { NextPage } from "next";
+import uuid from "react-uuid";
 
 type ChakraColors = Record<string, Record<string | number, string | { key: string }>>;
 
@@ -22,17 +23,17 @@ const Home: NextPage = () => {
         <VStack align="stretch">
           <Heading>Colors</Heading>
           <VStack align="inherit" spacing={10}>
-            {Object.entries(theme.colors as ChakraColors).map(([color, values]) => {
+            {Object.entries(theme.colors as ChakraColors).map(([color, values], i) => {
               const isSingleColor: boolean = typeof values !== "object";
               return isSingleColor ? (
-                <VStack align="inherit" spacing={4}>
+                <VStack key={uuid()} align="inherit" spacing={4}>
                   <Heading as="h3" size="md">
                     {color}
                   </Heading>
                   <Box boxSize={20} borderRadius={8} bgColor={color} />
                 </VStack>
               ) : (
-                <VStack align="inherit" spacing={4}>
+                <VStack key={uuid()} align="inherit" spacing={4}>
                   <Heading as="h3" size="md">
                     {color}
                   </Heading>

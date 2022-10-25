@@ -11,27 +11,28 @@
     "postinstall": "pnpm gen:chakra-theme-typings"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.3.5",
+    "@chakra-ui/react": "^2.3.6",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@fontsource/dm-sans": "^4.5.9",
     "@fontsource/ibm-plex-mono": "^4.5.12",
     "@fontsource/recursive": "^4.5.11",
     "@strangelovelabs/component-kit": "*",
-    "framer-motion": "^7.5.3",
-    "next": "12.3.1",
+    "framer-motion": "^7.6.1",
+    "next": "13.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-uuid": "^2.0.0"
   },
   "devDependencies": {
     "@chakra-ui/cli": "^2.1.8",
     "@chakra-ui/styled-system": "^2.3.4",
-    "@strangelovelabs/style-guide": "^0.0.3",
-    "@types/node": "18.11.0",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "eslint": "^8.25.0",
-    "eslint-config-next": "12.3.1",
+    "@strangelovelabs/style-guide": "^0.0.4",
+    "@types/node": "18.11.5",
+    "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
+    "eslint": "^8.26.0",
+    "eslint-config-next": "13.0.0",
     "typescript": "^4.6.4"
   },
   "prettier": "@strangelovelabs/style-guide/prettier"
