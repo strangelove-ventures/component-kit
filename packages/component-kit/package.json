@@ -1,6 +1,6 @@
 {
   "name": "@strangelovelabs/component-kit",
-  "private": true,
+  "private": false,
   "version": "0.1.0",
   "main": "./dist/component-kit.umd.js",
   "module": "./dist/component-kit.es.js",

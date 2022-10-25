@@ -7,6 +7,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --filter=next-example",
+    "publish-package": "turbo run build lint && changeset version && changeset publish",
     "component-kit": "pnpm --dir packages/component-kit",
     "next-example": "pnpm --dir apps/next-example"
   },
